@@ -1,7 +1,10 @@
 node_modules
 yarn-error.log
 Brewfile.lock.json
-dist
+# dist коммитится: vendored-сабмодуль в pdlc-core ставится метой как file:-пакет,
+# prepare в pacote-песочнице падает (нет devDeps/@types) — пакет предсобран.
+# Пересборка: npm ci --ignore-scripts distdist npm run build
+#dist
 /*.tgz
 .idea/
 tmp

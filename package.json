@@ -10,8 +10,7 @@
     "format": "prettier --write --cache --cache-strategy metadata . !dist",
     "lint": "./scripts/lint",
     "fix": "./scripts/format",
-    "build": "node scripts/build.mjs",
-    "prepare": "npm run build"
+    "build": "node scripts/build.mjs"
   },
   "private": false,
   "keywords": [],
